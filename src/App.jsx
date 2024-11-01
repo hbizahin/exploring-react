@@ -18,6 +18,7 @@ function App() {
       <Counter></Counter>
       <button onClick={handleClick}> Click me </button>
       <button onClick={handleClick2}> Click2</button>
+      <h3>Replit added</h3>
     </>
   );
 }
