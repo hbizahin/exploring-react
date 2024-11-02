@@ -19,6 +19,7 @@ function App() {
       <button onClick={handleClick}> Click me </button>
       <button onClick={handleClick2}> Click2</button>
       <h3>Replit added</h3>
+      <h3>Replit added and will be pulled now!</h3>
     </>
   );
 }
