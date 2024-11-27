@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Actor from "./Actor";
 import Counter from "./Counter";
+import Users from "./Users";
 function App() {
   const actors = ["Sakib", "Musfique", "Mashrafi", "Rubel"];
   function handleClick() {
@@ -14,6 +15,7 @@ function App() {
   };
   return (
     <>
+      <Users></Users>
       <h3>React Core Concepts 2</h3>
       <Counter></Counter>
       <button onClick={handleClick}> Click me </button>
